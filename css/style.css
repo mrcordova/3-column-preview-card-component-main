@@ -34,3 +34,7 @@ body {
     place-content: center;
 }
 
+.card {
+    inline-size: 20rem;
+}
+
