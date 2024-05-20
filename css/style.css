@@ -31,47 +31,16 @@ html, body {
 
 body {
     display: grid;
-    min-height: 100%;
-    /* justify-items: center; */
-    /* justify-content: center;
-    align-content: center; */
-    /* align-items: center; */
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  /* justify-items: center; */
-  /* padding-block: 5.5rem; */
-  /* align-content: center; */
+    place-content: center;
+  
+  
 }
 
 .card {
-   /* display: grid; */
-   display: flex;
-   flex-direction: row;
-   /* flex-wrap: wrap; */
-   justify-content: center;
-   /* align-content: center; */
-   /* justify-content: center;
-   justify-items: center;
-   align-items: center;
-   ali */
-   /* align-content: center; */
-   /* min-width: 0; */
-   /* Desktop */
-  /* inline-size: 57.5rem; */
-  /* block-size: 31.3rem; */
-
-  /* Mobile */
-    /* inline-size: 20.5rem;
-    block-size: 82.5rem; */
-    inline-size: clamp(20.5rem, 7.4718rem + 55.5869vw, 57.5rem);
-    max-block-size: clamp(31.3rem, 100.5282rem + -76.9202vw, 82.5rem);
-    /* inline-size: clamp(20.5rem, 8.1338rem + 82.6291vw, 82.5rem);  */
-    /* block-size: clamp(27.5rem, 101.8662rem + -82.6291vw, 82.5rem);
-    /* grid-template-rows: [content-start] clamp(27.5rem, 8.1338rem + 82.6291vw, 82.5rem) [content-end]; */
-    /* grid-template-columns: [content-start] 20rem [content-end]; */
-    /* inline-size: 20.5rem;
-    block-size: 82.5rem; */
+ 
+ display: grid;
+grid-template-columns: repeat(3, 19.15rem);
+grid-template-rows: repeat(auto-fill, 31rem);
     
 }
 
@@ -80,9 +49,9 @@ body {
 
 
     /* Desktop*/
-    inline-size: 19.15rem;
-    /* block-size: 61.5rem; */
-    block-size: clamp(27.5rem, 15.5282rem + 51.0798vw, 61.5rem);
+    /* inline-size: 19.15rem; */
+    /* block-size: 27.5rem; */
+    /* block-size: clamp(27.5rem, 15.5282rem + 51.0798vw, 61.5rem); */
    
 }
 
