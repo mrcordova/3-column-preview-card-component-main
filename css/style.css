@@ -76,7 +76,8 @@ button {
     align-content: center;
     /* flex: 1; */
     /* margin-bottom: 500px; */
-    margin-block-start: clamp(0rem, 4.9014rem + -5.4460vw, 3.625rem);
+    /* margin-block-start: clamp(0rem, 4.9014rem + -5.4460vw, 3.625rem); */
+    margin-block-start: clamp(1.375rem, 4.4173rem + -3.3803vw, 3.625rem);
     
 }
 
@@ -99,8 +100,14 @@ button {
 
 .section {
 
-    inline-size: 20.5rem;
-    min-block-size: 27.65rem;
+    /* Mobile */
+    /* inline-size: 20.5rem; */
+    /* min-block-size: 27.65rem; */
+
+    /* Desktop */
+    inline-size: 19.2rem;
+    min-block-size: 31.3rem;
+
     padding-inline-start: 3rem;
     padding-inline-end: 3rem;
     padding-block-start: 3rem;
