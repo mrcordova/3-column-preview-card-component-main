@@ -35,6 +35,7 @@ body {
     place-content: safe center;
     /* height: 100vh; */
     height: 100%;
+    background-color: var(--very-light-gray-bg-btn-h);
     /* min-height: min-content; */
     /* overflow-y: auto; */
     /* margin-block: 20px */
@@ -48,7 +49,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: red;
+    /* background-color: red; */
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -60,7 +61,7 @@ body {
 
 .section {
     
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     inline-size: 20.5rem;
     min-block-size: 27.7rem;
@@ -68,10 +69,14 @@ body {
     
 }
 
-/* .card .section:first-child {
-    margin-bottom: 0px;
+.card .section:first-child {
+    background-color: var(--bright-orange);
+}
+
+.card .section:nth-child(2) {
+    background-color: var(--dark-cyan);
 }
 
 .card .section:last-child {
-    margin-bottom: 20px;
-} */
+    background-color: var(--very-dark-cyan);
+}
