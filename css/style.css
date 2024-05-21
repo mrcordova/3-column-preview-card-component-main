@@ -137,3 +137,16 @@ button {
             border-bottom-right-radius: 8px;
         }
 }
+
+@media(min-width: 62.5rem) {
+    .card .section:nth-child(2) {
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+    }
+    .card .section:last-child {
+       
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}
