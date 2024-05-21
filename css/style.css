@@ -41,6 +41,10 @@ body {
     /* margin-block: 20px */
 }
 
+button {
+    color: var(--very-light-gray-bg-btn-h);
+}
+
 .card {
     
     /* height: 100%; */
@@ -59,12 +63,22 @@ body {
     
 }
 
+.card-icon {
+    margin-block-end: 1.9rem;
+}
+.card-title {
+    font-size: 2.5rem;
+}
+
 .section {
     
     /* border: 1px solid black; */
 
     inline-size: 20.5rem;
     min-block-size: 27.65rem;
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+    padding-block-start: 3rem;
   
     
 }
