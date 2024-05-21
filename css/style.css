@@ -48,22 +48,22 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  
+    background-color: red;
     justify-content: center;
     align-items: center;
     align-content: center;
-    /* margin-block: 20px; */
     /* flex: 1; */
     /* margin-bottom: 500px; */
-   
+    margin-block-start: 3.625rem;
+    
 }
 
 .section {
     
-    /* border: 1px solid red; */
+    border: 1px solid black;
 
     inline-size: 20.5rem;
-    min-block-size: 30rem;
+    min-block-size: 27.7rem;
   
     
 }
