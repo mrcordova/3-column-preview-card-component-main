@@ -43,12 +43,23 @@ body {
 
 button {
     background-color: var(--very-light-gray-bg-btn-h);
-    color: var(--bright-orange);
+    
     text-align: center;
     padding-block: 0.8rem;
     padding-inline: 2rem;
     border-radius: 30px;
     font-size: 0.9375rem;
+}
+
+.sedan-btn {
+    color: var(--bright-orange);
+}
+
+.suv-btn {
+    color: var(--dark-cyan);
+}
+ .luxury-btn {
+    color: var(--very-dark-cyan);
 }
 
 .card {
