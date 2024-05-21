@@ -52,12 +52,36 @@ button {
 .sedan-btn {
     color: var(--bright-orange);
 }
+.sedan-btn:is(:hover) {
+    cursor: pointer;
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray-bg-btn-h);
+    padding-inline: 1.8125rem;
+    padding-block: 0.6125rem;
+    border: 3px solid var(--very-light-gray-bg-btn-h);
+}
 
 .suv-btn {
     color: var(--dark-cyan);
 }
- .luxury-btn {
+.suv-btn:is(:hover) {
+    cursor: pointer;
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray-bg-btn-h);
+    padding-inline: 1.8125rem;
+    padding-block: 0.6125rem;
+    border: 3px solid var(--very-light-gray-bg-btn-h);
+}
+.luxury-btn {
     color: var(--very-dark-cyan);
+}
+.luxury-btn:is(:hover) {
+    cursor: pointer;
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray-bg-btn-h);
+    padding-inline: 1.8125rem;
+    padding-block: 0.6125rem;
+    border: 3px solid var(--very-light-gray-bg-btn-h);
 }
 
 .card {
