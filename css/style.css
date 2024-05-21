@@ -54,7 +54,7 @@ body {
     align-content: center;
     /* flex: 1; */
     /* margin-bottom: 500px; */
-    margin-block-start: 3.625rem;
+    margin-block-start: clamp(0rem, 4.9014rem + -5.4460vw, 3.625rem);
     
 }
 
