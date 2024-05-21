@@ -42,7 +42,13 @@ body {
 }
 
 button {
-    color: var(--very-light-gray-bg-btn-h);
+    background-color: var(--very-light-gray-bg-btn-h);
+    color: var(--bright-orange);
+    text-align: center;
+    padding-block: 0.8rem;
+    padding-inline: 2rem;
+    border-radius: 30px;
+    font-size: 0.9375rem;
 }
 
 .card {
@@ -72,6 +78,7 @@ button {
     line-height: 1.62;
     font-size: 0.949rem;
     color: var(--transparent-white-para);
+    margin-block-end: 1.5rem;
 }
 .card-title {
     font-size: 2.5rem;
@@ -80,8 +87,6 @@ button {
 }
 
 .section {
-    
-    /* border: 1px solid black; */
 
     inline-size: 20.5rem;
     min-block-size: 27.65rem;
