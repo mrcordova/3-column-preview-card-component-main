@@ -124,3 +124,16 @@ button {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+@media(min-width: 41.9375rem) {
+    .card .section:first-child {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 8px;
+        }
+    
+        .card .section:nth-child(2) {
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+}
