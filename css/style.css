@@ -64,13 +64,16 @@ body {
     /* border: 1px solid black; */
 
     inline-size: 20.5rem;
-    min-block-size: 27.7rem;
+    min-block-size: 27.65rem;
   
     
 }
 
 .card .section:first-child {
     background-color: var(--bright-orange);
+    /* background-color: red; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .card .section:nth-child(2) {
@@ -79,4 +82,6 @@ body {
 
 .card .section:last-child {
     background-color: var(--very-dark-cyan);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
