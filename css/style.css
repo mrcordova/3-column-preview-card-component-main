@@ -66,8 +66,17 @@ button {
 .card-icon {
     margin-block-end: 1.9rem;
 }
+
+.card-para {
+    text-align: left;
+    line-height: 1.62;
+    font-size: 0.949rem;
+    color: var(--transparent-white-para);
+}
 .card-title {
     font-size: 2.5rem;
+    color: var(--very-light-gray-bg-btn-h);
+    margin-block-end: 1.36rem;
 }
 
 .section {
