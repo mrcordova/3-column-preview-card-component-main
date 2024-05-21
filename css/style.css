@@ -86,16 +86,28 @@ button {
 }
 
 .card-para {
-    text-align: left;
-    line-height: 1.62;
-    font-size: 0.949rem;
     color: var(--transparent-white-para);
-    margin-block-end: 1.5rem;
+    text-align: left;
+    /* Mobile */
+    /* line-height: 1.62; */
+    /* font-size: 0.949rem; */
+    /* margin-block-end: 1.5rem; */
+
+    line-height: 1.62;
+    margin-block-end: clamp(1.5rem, 0.2676rem + 5.2582vw, 5rem);
+    font-size: 0.949rem;
+    /* Desktop */
+    /* margin-block-end: 5rem; */
 }
 .card-title {
-    font-size: 2.5rem;
     color: var(--very-light-gray-bg-btn-h);
-    margin-block-end: 1.36rem;
+    /* Mobile */
+    /* font-size: 2.5rem; */
+    /* margin-block-end: 1.36rem; */
+    font-size: 2.5rem;
+    margin-block-end: clamp(1.27rem, 1.3917rem + -0.1352vw, 1.36rem);
+    /* Desktop */
+    /* margin-block-end: 1.27rem; */
 }
 
 .section {
@@ -103,10 +115,11 @@ button {
     /* Mobile */
     /* inline-size: 20.5rem; */
     /* min-block-size: 27.65rem; */
-
+    inline-size: clamp(19.2rem, 20.9577rem + -1.9531vw, 20.5rem);
+    min-block-size: clamp(27.65rem, 26.3648rem + 5.4836vw, 31.3rem);
     /* Desktop */
-    inline-size: 19.2rem;
-    min-block-size: 31.3rem;
+    /* inline-size: 19.2rem; */
+    /* min-block-size: 31.3rem; */
 
     padding-inline-start: 3rem;
     padding-inline-end: 3rem;
@@ -117,7 +130,6 @@ button {
 
 .card .section:first-child {
     background-color: var(--bright-orange);
-    /* background-color: red; */
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
